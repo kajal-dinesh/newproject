@@ -1,0 +1,22 @@
+<body>
+    <h1>LoginForm</h1>
+
+    <div class="login-box">
+        <form action="" [formGroup]="loginForm">
+            <label for="" id="mar-left">UserId</label ><br>
+            <input type="text" id="mar-left" placeholder="enter your userid" class="control-form" formControlName="userid"><br>
+            <div *ngIf="(this.loginForm.get('userid')?.touched ||this.loginForm.get('userid')?.dirty)&&this.loginForm.get('userid')?.errors" style="color: red;">Invalid</div>
+    
+            <label for="" id="mar-left">Password</label><br>
+            <input type="password" id="mar-left" placeholder="enter your password" class="control-form" formControlName="password"><br>
+            <div *ngIf="(this.loginForm.get('password')?.touched ||this.loginForm.get('password')?.dirty)&&this.loginForm.get('password')?.errors" style="color: red;">Invalid</div><br>
+            <button  (click)="login()" class=" btn2 btn btn-success ">submit</button>
+
+        </form>
+
+    </div>
+    <div>
+        <p>Not have an account? <a href="#" routerLink="/register">Register Here</a></p>
+    </div>
+
+</body>

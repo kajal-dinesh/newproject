@@ -1,0 +1,44 @@
+form{
+    border: 3px solid black;
+    height: 480px;
+    width: 400px;
+    margin-left: 580px;
+    margin-top: 50px;
+    margin-bottom:50px ;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+#label{
+    margin-left: 40px;
+    padding-top: 30px;
+}
+#in1{
+    margin-left: 40px;
+}
+#in2{
+    margin-left: 41px;
+}
+#in3{
+    margin-left: 51px;
+}
+#in4{
+    margin-left: 14px;
+    width: 160px;
+}
+#in5{
+    margin-left: 61px;
+}
+#in6{
+    margin-left: 65px;
+}
+#in7{
+    margin-left: 42px;
+}
+.btn1{
+    margin-left: 110px;
+    width: 200px;
+    margin-top: 20px;
+
+}

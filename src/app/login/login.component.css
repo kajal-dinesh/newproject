@@ -1,0 +1,23 @@
+.login-box{
+    border: solid 3px black;
+    height: 250px;
+    width:300px;
+    margin-left: 640px;
+    margin-top: 20px;
+}
+#mar-left{
+    margin-left: 30px;
+    padding: 10px;
+}
+.btn2{
+    width: 200px;
+    margin-left: 45px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+<!-- <div>
+  <form action="" class="form-control">
+      <div class="container">
+          <label for="">Rank:</label>
+          <input type="text"  name="name"[(ngModel)]="data.rank" id="in1"><br>
+          <label for="">Name:</label>
+          <input type="text" name="website" [(ngModel)]="data.personName" id="in2"><br>
+          <label for="">NetWorth:</label>
+          <input type="text" name="phone" [(ngModel)]="data.finalWorth" id="in3"><br>
+          <label for="">Gender:</label>
+          <input type="text" name="phone" [(ngModel)]="data.gender" id="in3"><br>
+          <label for="">Resident:</label>
+          <input type="text" name="phone" [(ngModel)]="data.countryOfCitizenship" id="in3"><br>
+          <label for="">Source:</label>
+          <input type="text" name="phone" [(ngModel)]="data.source" id="in3"><br>
+
+
+
+          <button type="submit" (click)="post()" class="btn1 btn btn-danger">submit</button>
+
+      </div>
+
+  </form> -->
+
+ <div>
+    <table class="table">
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>NetWorth</th>
+            <th>Gender</th>
+            <th>Resident</th>
+            <th>Source</th>
+        </tr>
+        <tr *ngFor="let item of UserData">
+            <td>{{item.rank}}</td>
+            <td>{{item.personName}}</td>
+            <td>{{item.finalWorth}}</td>
+            <td>{{item.gender}}</td>
+            <td>{{item.countryOfCitizenship}}</td>
+            <td>{{item.source}}</td>
+        </tr>
+
+    </table>
+  </div>

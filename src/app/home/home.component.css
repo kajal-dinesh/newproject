@@ -1,0 +1,42 @@
+.table{
+    width: 700px;
+    margin-left: 435px;
+    border-collapse: collapse;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+table,th,td{
+    border: 2px solid dimgray;
+    text-align: center;
+}
+.form-control{
+    border: 1px solid gray;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.btn2{
+    width: 102px;
+    margin-left: 745px;
+}
+.btn1{
+    width: 102px;
+    margin-top: 50px;
+    margin-left: 102px;
+
+}
+#in1{
+    margin-left: 102px;
+}
+#in1{
+    margin-left: 102px;
+}
+#in2{
+    margin-left: 144px;
+}#in3{
+    margin-left: 77px;
+}
+
+

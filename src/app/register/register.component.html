@@ -1,0 +1,38 @@
+<body>
+    <div class="form-box">
+        <h1>Register Here</h1>
+        <form [formGroup]="regForm" >
+            <label for="" id="label">Firstname</label>
+            <input type="text" placeholder="enter your firstname" formControlName="fname"  id="in1"><br>
+            <div *ngIf="(this.regForm.get('fname')?.touched||this.regForm.get('fname')?.dirty)&&this.regForm.get('fname')?.errors" style="color: red;"> Invalid</div>
+
+            <label for="" id="label">Lastname</label>
+            <input type="text" placeholder="enter your lastname" formControlName="lname" id="in2"><br>
+            <div *ngIf="(this.regForm.get('lname')?.touched||this.regForm.get('lname')?.dirty)&&this.regForm.get('lname')?.errors" style="color: red;"> Invalid</div>
+
+            <label for="" id="label">Address</label>
+            <input type="text" placeholder="enter your address" formControlName="address" id="in3"><br>
+            <div *ngIf="(this.regForm.get('address')?.touched||this.regForm.get('address')?.dirty)&&this.regForm.get('address')?.errors" style="color: red;"> Invalid</div>
+
+            <label for="" id="label">Phonenumber</label>
+            <input type="text" placeholder="enter your phonenumber" formControlName="phn" id="in4"><br>
+            <div *ngIf="(this.regForm.get('phn')?.touched||this.regForm.get('phn')?.dirty)&&this.regForm.get('phn')?.errors" style="color: red;"> Invalid</div>
+
+
+            <label for="" id="label">District</label>
+            <input type="text" placeholder="enter your District" formControlName="dist" id="in5"><br>
+            <label for="" id="label">UserId</label>
+            <input type="text" placeholder="enter your userid" formControlName="userid" id="in6"><br>
+            <label for="" id="label">Password</label>
+            <input type="text" placeholder="enter your password" formControlName="password" id="in7"><br>
+            <button (click)="submit()"  class="btn btn-danger btn1">submit</button>
+
+
+
+
+
+
+        </form>
+
+    </div>
+</body>
